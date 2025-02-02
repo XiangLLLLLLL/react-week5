@@ -4,6 +4,6 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   // 開發中、產品路徑
-  base: process.env.NODE_ENV === "production" ? "/github路徑/" : "/", // 加入此段程式碼
+  base: process.env.NODE_ENV === "production" ? "/react-week5/" : "/", // 加入此段程式碼
   plugins: [react()],
 });
